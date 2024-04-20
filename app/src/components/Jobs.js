@@ -1,9 +1,12 @@
 import React from 'react';
+import './Jobs.css';
 
 function Jobs({ job }) {
 	return (
 		<>
-			<div key={job.id}>
+			<div
+				className="list"
+				key={job.id}>
 				<h2>
 					{job.title} - {job.company}
 				</h2>

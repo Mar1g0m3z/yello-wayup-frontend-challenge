@@ -1,0 +1,36 @@
+.list {
+	display: flex;
+	margin-left: 20%;
+	justify-content: center;
+	flex-direction: column;
+	align-items: flex-start;
+	padding-left: 5%;
+	padding-bottom: 5%;
+	padding-right: 5%;
+	text-align: left;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+		rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+	width: 50%;
+}
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	/* gap: 40px; */
+}
+
+button {
+	background-color: #282c34;
+	border: none;
+	color: white;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	border-radius: 5px;
+	font-weight: bolder;
+}
+
+button:hover {
+	cursor: pointer;
+}
